@@ -4,16 +4,14 @@ Solution to Coursera Getting And Cleaning data Course Assignment. This repositor
 
 The R script, run_analysis.R, does the following:
 
--Downloads the dataset if it does not exist
+----------------------------------------------------------------------------------------------------------------------------------------
 
--Load the activity and feature data
+- Downloads the dataset if it does not exist
 
--Loads training and test datasets
+- Load the activity and feature data
 
--Loads the activity and subject data for each dataset, and merges those columns with the dataset
+- Loads training and test datasets and merges them
 
--Merges the two datasets
+- Converts the activity and subject columns into factors
 
--Converts the activity and subject columns into factors
-
--Creates a tidy dataset that consists of the mean value of each variable for each subject and activity pair
+- Creates a clean dataset that consists of the mean value of each variable for each subject and activity pair
